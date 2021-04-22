@@ -2,7 +2,7 @@ var bigInt = require("big-integer");
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
-    let nth = req.body.nth
+    let nth = context.req.query.nth;
     let nth_1 = bigInt.one;
     let nth_2 = bigInt.zero;
     let answer = bigInt.zero;
