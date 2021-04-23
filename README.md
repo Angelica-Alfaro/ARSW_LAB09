@@ -103,7 +103,7 @@ Una vez realizada la función se prueba con los valores: 0,6,10,100,1000.
 
    El plan de consumo de Azure Functions se factura en función del consumo de recursos y las ejecuciones por segundo. Los precios del plan de consumo incluyen una concesión gratuita mensual de 1 millones de solicitudes y 400.000 GB-segundos de consumo de recursos por suscripción en el modelo de precios de pago por uso, para todas las aplicaciones de funciones de esa suscripción. El plan Azure Functions Premium proporciona un rendimiento mejorado y se factura por segundo en función del número de vCPU/s y de GB/s que consuman sus funciones premium. Los clientes también puede ejecutar Functions dentro de su plan de App Service a las tarifas normales del plan de App Service.
 
-8. **Informe**
+8. **Informe:** [Mostrar informe](https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/Informe.pdf)
 
 **Fuentes:**
 
