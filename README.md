@@ -63,9 +63,17 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
     
 5. **¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.**
   
-    * **Plan de consumo** 
-    * **Plan Premium**
-    * **Plan dedicado (App Service)**
+    * Plan de consumo 
+    * Plan Premium
+    * Plan dedicado (App Service)
+    
+     <!DOCTYPE html>
+     <html>
+         <head></head>
+         <body>
+             <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/TiposDePlanes.PNG" alt="ER" width="1000"/>
+         </body>
+     </html>
 
 6. **¿Por qué la memorización falla o no funciona de forma correcta?**
 7. **¿Cómo funciona el sistema de facturación de las Function App?**
@@ -83,3 +91,4 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 - https://docs.microsoft.com/en-us/azure/azure-functions/storage-considerations
 - https://azure.microsoft.com/es-es/services/functions/#pricing
 - https://azure.microsoft.com/es-es/pricing/details/functions/
+- https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
