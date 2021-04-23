@@ -55,7 +55,7 @@ Los tiempos de respuesta disminuyeron respecto a la implementación sin memoriza
     </body>
 </html>
 
-Los tiempos de respuesta se redujeron, debido a que a través del map se cuenta con cálculos previos de hace 5 minutos.
+Los tiempos de respuesta se redujeron, debido a que a través de la memorización se cuenta con cálculos previos de hace 5 minutos.
 
 **🔎 Preguntas**
 
