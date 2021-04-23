@@ -33,23 +33,27 @@ Una vez realizada la función se prueba con los valores: 0,6,10,100,1000.
 
 **Comportamiento, previo a los 5 min**
 
-    <!DOCTYPE html>
-    <html>
-        <head></head>
-        <body>
-            <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_previo5min.PNG" alt="ER" width="1000"/>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_previo5min.PNG" alt="memo5prev" width="800"/>
+    </body>
+</html>
+
+Los tiempos de respuesta disminuyeron respecto a la implementación sin memorización, debido a que a través del map se cuenta con cálculos previos.
 
 **Comportamiento, posterior a los 5 min**
 
-    <!DOCTYPE html>
-    <html>
-        <head></head>
-        <body>
-            <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_pos5min.PNG" alt="ER" width="1000"/>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_pos5min.PNG" alt="memo5pos" width="800"/>
+    </body>
+</html>
+
+Los tiempos de respuesta aumentaron de nuevo puesto que pasado un tiempo ya no se cuenta con los cálculos previos; por lo que se hace necesario volver a obtenerlos.
 
 **🔎 Preguntas**
 
@@ -86,14 +90,14 @@ Una vez realizada la función se prueba con los valores: 0,6,10,100,1000.
             <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/TiposDePlanes.PNG" alt="ER" width="1000"/>
         </body>
     </html>
-
+    
 6. **¿Por qué la memorización falla o no funciona de forma correcta?**
 
     <!DOCTYPE html>
     <html>
         <head></head>
         <body>
-            <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memoError.PNG" alt="ER" width="1000"/>
+            <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memoError.png" alt="memo" width="600"/>
         </body>
     </html>
 
