@@ -37,11 +37,12 @@ Una vez realizada la función se prueba con los valores: 0,6,10,100,1000.
 <html>
     <head></head>
     <body>
-        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_previo5min.PNG" alt="memo5prev" width="800"/>
+        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/performance_memo_prev5.png" alt="memo5prev" width="800"/>
+        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/performance2_memo_prev5.png" alt="memo5prev2" width="800"/>
     </body>
 </html>
 
-Los tiempos de respuesta disminuyeron respecto a la implementación sin memorización, debido a que a través del map se cuenta con cálculos previos.
+Los tiempos de respuesta disminuyeron respecto a la implementación sin memorización, sin embargo al ser los primeros cálculos se tiene un tiempo de respuesta normal.
 
 **Comportamiento, posterior a los 5 min**
 
@@ -49,11 +50,12 @@ Los tiempos de respuesta disminuyeron respecto a la implementación sin memoriza
 <html>
     <head></head>
     <body>
-        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_pos5min.PNG" alt="memo5pos" width="800"/>
+        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/performance_memo_pos5.png" alt="memo5pos" width="800"/>
+        <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/performance2_memo_pos5.png" alt="memo5pos" width="800"/>
     </body>
 </html>
 
-Los tiempos de respuesta aumentaron de nuevo puesto que pasado un tiempo ya no se cuenta con los cálculos previos; por lo que se hace necesario volver a obtenerlos.
+Los tiempos de respuesta se redujeron, debido a que a través del map se cuenta con cálculos previos de hace 5 minutos.
 
 **🔎 Preguntas**
 
