@@ -29,6 +29,28 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 6. Cree una nueva Function que resuelva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
 
+Una vez realizada la función se prueba con los valores: 0,6,10,100,1000.
+
+**Comportamiento, previo a los 5 min**
+
+    <!DOCTYPE html>
+    <html>
+        <head></head>
+        <body>
+            <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_previo5min.PNG" alt="ER" width="1000"/>
+        </body>
+    </html>
+
+**Comportamiento, posterior a los 5 min**
+
+    <!DOCTYPE html>
+    <html>
+        <head></head>
+        <body>
+            <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memo_pos5min.PNG" alt="ER" width="1000"/>
+        </body>
+    </html>
+
 **🔎 Preguntas**
 
 1. **¿Qué es un Azure Function?**
@@ -66,6 +88,14 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
     </html>
 
 6. **¿Por qué la memorización falla o no funciona de forma correcta?**
+
+    <!DOCTYPE html>
+    <html>
+        <head></head>
+        <body>
+            <img src="https://github.com/Angelica-Alfaro/ARSW_LAB09/blob/main/images/part2/memoError.PNG" alt="ER" width="1000"/>
+        </body>
+    </html>
 
    La función recursiva con memorización no funciona de forma correcta debido a que usamos el plan de consumo que nos ofrece 1.5 GB por instancia lo que puede quedar corto a la hora de hacer peticiones con números muy grandes y a partir de ahí ocurre un error, ya que el número de llamadas recursivas excede la capacidad del call stack.
 
