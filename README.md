@@ -17,23 +17,11 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 1. Cree una Function App tal cual como se muestra en las  imagenes.
 
-![](images/part3/part3-function-config.png)
-
-![](images/part3/part3-function-configii.png)
-
 2. Instale la extensión de **Azure Functions** para Visual Studio Code.
-
-![](images/part3/part3-install-extension.png)
 
 3. Despliegue la Function de Fibonacci a Azure usando Visual Studio Code. La primera vez que lo haga se le va a pedir autenticarse, siga las instrucciones.
 
-![](images/part3/part3-deploy-function-1.png)
-
-![](images/part3/part3-deploy-function-2.png)
-
 4. Dirijase al portal de Azure y pruebe la function.
-
-![](images/part3/part3-test-function.png)
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
@@ -76,9 +64,12 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
      </html>
 
 6. **¿Por qué la memorización falla o no funciona de forma correcta?**
+
+    La función recursiva con memorización no funciona de forma correcta debido a que usamos el plan de consumo que nos ofrece 1.5 GB por instancia lo que puede quedar corto a la     hora de hacer peticiones con números muy grandes y a partir de ahí ocurre un error,  ya que el número de llamadas recursivas excede la capacidad del call stack.
+    
 7. **¿Cómo funciona el sistema de facturación de las Function App?**
    
-   El plan de consumo de Azure Functions se factura en función del consumo de recursos y las ejecuciones por segundo. Los precios del plan de consumo incluyen una concesión        gratuita mensual de 1 millones de solicitudes y 400.000 GB-segundos de consumo de recursos por suscripción en el modelo de precios de pago por uso, para todas las                aplicaciones de funciones de esa suscripción. El plan Azure Functions Premium proporciona un rendimiento mejorado y se factura por segundo en función del número de vCPU/s y      de GB/s que consuman sus funciones premium. Los clientes también puede ejecutar Functions dentro de su plan de App Service a las tarifas normales del plan de App Service.
+    El plan de consumo de Azure Functions se factura en función del consumo de recursos y las ejecuciones por segundo. Los precios del plan de consumo incluyen una concesión         gratuita mensual de 1 millones de solicitudes y 400.000 GB-segundos de consumo de recursos por suscripción en el modelo de precios de pago por uso, para todas las               aplicaciones de funciones de esa suscripción. El plan Azure Functions Premium proporciona un rendimiento mejorado y se factura por segundo en función del número de vCPU/s y     de GB/s que consuman sus funciones premium. Los clientes también puede ejecutar Functions dentro de su plan de App Service a las tarifas normales del plan de App Service.
 
 8. **Informe**
 
